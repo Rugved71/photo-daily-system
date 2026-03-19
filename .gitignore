@@ -1,0 +1,56 @@
+# Backend (Node.js)
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.production
+backend/logs/
+backend/*.log
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/.DS_Store
+backend/coverage/
+backend/.nyc_output/
+
+# Frontend (Web App)
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/out/
+frontend/.nuxt/
+frontend/.vuepress/dist/
+frontend/public/uploads/
+frontend/logs/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.DS_Store
+frontend/coverage/
+frontend/.nyc_output/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
